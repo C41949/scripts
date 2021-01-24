@@ -1,6 +1,6 @@
 # Docker
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo bash get-docker.sh
+curl -fsSL https://get.docker.com -o _get-docker.sh
+sudo bash _get-docker.sh
 sudo usermod -aG docker $(whoami)
 
 # Docker-Compose
